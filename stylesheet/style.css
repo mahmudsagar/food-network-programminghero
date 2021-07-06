@@ -1,0 +1,112 @@
+/* global styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.width-80{
+    max-width: 80%;
+}
+.position-center{
+    margin: 0 auto;
+}
+.btn{
+    border: none;
+    background-color: transparent;
+}
+.btn:focus{
+    outline: none;
+}
+.gradient-bg{
+    background: linear-gradient(to right,#fba24f, #ff1e1ec2);
+}
+.gradient-text{
+    background: -webkit-linear-gradient(left,#fba24f, #ff1e1ec2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Navigation bar styles */
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 9;
+}
+.nav-bar{
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+.nav-title{
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 2.25rem;
+}
+.nav-links{
+    list-style: none;
+    justify-self: end;
+}
+.nav-links li{
+    display: inline-block;
+}
+.nav-links a{
+    color: #f40000;
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 0 1rem;
+}
+/* Navigation bar styles end */
+/* hero section styles starts */
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4rem;
+}
+.hero-text{
+    align-self: center;
+}
+.hero-text h1{
+    font-size: 3.75rem;
+    color: hsl(0, 0%, 34%);
+    width: 13ch;
+}
+.hero-text p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 51%);
+    margin: 60px 0;
+    width: 44ch;
+}
+.hero-btn{
+    border: 1px solid black;
+    padding: 1.2rem 3rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+.hero-image{
+    background-image: url('../images/shapes/Group 8450.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hero-image img{
+    height: 91%;
+    margin-left: 7rem;
+}
+
+/* hero section styles end */
+
+/* about section style starts */
+
+/* about section style ends */
+¬
