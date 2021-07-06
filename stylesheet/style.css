@@ -135,7 +135,7 @@ nav {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    padding: 2rem 0;
+    padding: 3rem 0 0;
 }
 .about-section {
     display: grid;
