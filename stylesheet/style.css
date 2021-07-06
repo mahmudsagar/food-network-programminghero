@@ -6,6 +6,9 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
+h1,h2,h3,h4{
+    text-transform: capitalize;
+}
 /* container width */
 .width-80 {
     max-width: 80%;
