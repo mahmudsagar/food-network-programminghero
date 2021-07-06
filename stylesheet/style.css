@@ -28,6 +28,22 @@ body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.section-header{
+    text-align: center;
+    margin: 3rem 0;
+}
+.section-header h2{
+    font-size: 3.75rem;
+    color: hsl(0, 0%, 44%);
+    margin-bottom: 2rem;
+}
+.section-header p{
+    font-size: 1.125rem;
+    color: #252525;
+    width: 60ch;
+    margin: 0 auto;
+    line-height: 136.4%;
+}
 /* Navigation bar styles */
 nav{
     position: fixed;
@@ -74,23 +90,24 @@ nav{
 .hero-text h1{
     font-size: 3.75rem;
     color: hsl(0, 0%, 34%);
-    width: 13ch;
+    line-height: 130%;
 }
-.hero-text p{
+.hero-text p, .about-text p{
     font-size: 1.25rem;
     font-weight: 500;
     color: hsl(0, 0%, 51%);
     margin: 60px 0;
     width: 44ch;
+    line-height: 160%;
 }
 .hero-btn{
-    border: 1px solid black;
     padding: 1.2rem 3rem;
     font-size: 1.125rem;
     font-weight: 600;
     color: #fff;
     border-radius: 5rem;
     cursor: pointer;
+    box-shadow: 0px 0px 16px 3px #fc8e4988;
 }
 .hero-image{
     background-image: url('../images/shapes/Group 8450.png');
@@ -100,13 +117,121 @@ nav{
     position: relative;
 }
 .hero-image img{
-    height: 91%;
-    margin-left: 7rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* hero section styles end */
 
 /* about section style starts */
-
+#about{
+    background-image: url("../images/shapes/Frame 57.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 2rem 0;
+}
+.about-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about-image img{
+    width: 338px;
+}
+.about-text{
+    align-self: center;
+}
+.about-text p{
+    line-height: 32px;
+    font-size: 1.125rem;
+    color: hsl(231, 13%, 11%);
+}
+.about-text h2{
+    color: hsl(0, 0%, 44%);
+    font-size: 2.5rem;
+}
 /* about section style ends */
-¬
+/* reciepe card style starts */
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    margin: 1rem auto 2rem;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 18px 6px hsla(0, 0%, 0%,15%);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.card-header img{
+    width: 100%;
+    height: 256px;
+    border-radius: 1rem;
+}
+.card-body h3{
+    color: hsl(231, 13%, 11%);
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 1.55rem;
+}
+.card-body p{
+    line-height: 32px;
+    font-size: 1.125rem;
+}
+/* reciepe card style ends */
+/* countdown card style starts */
+.countdown{
+    margin: 5.5rem 0;
+}
+.countdown .card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 70%;
+}
+.countdown .card-body h3{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.countdown .card-body p{
+    font-size: 1rem;
+}
+/* countdown card style ends */
+/* contact form style starts */
+.contact-form{
+    display: grid;
+}
+.contact-form label{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+.contact-form input, .contact-form textarea{
+    border-color: #f40000;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.contact-form input:focus, .contact-form textarea:focus{
+    outline: none;
+}
+/* contact form style ends */
+/* footer  style starts */
+footer{
+    background-color: hsl(0, 0%, 0%);
+    padding: 2rem 0 5rem;
+    text-align: center;
+    margin-top: 5rem;
+    color: hsl(0, 0%, 100%);
+}
+footer h4{
+    color: hsl(0, 0%, 36%);
+    text-transform: uppercase;
+    font-size: 1.875rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+/* footer  style ends */
